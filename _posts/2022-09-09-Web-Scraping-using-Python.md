@@ -1,7 +1,9 @@
-# Introduction:
+# Web Scraping using Python 
+
+## Introduction:
 Web scraping is the process of extracting data from websites. It allows you to automate the retrieval of information from web pages, which can be incredibly useful for various purposes like data analysis, research, and building applications. In this tutorial, we will explore web scraping using Python, along with the BeautifulSoup library.
 
-# Prerequisites:
+## Prerequisites:
 
 1. Basic knowledge of Python programming.
 2. Familiarity with HTML structure.
@@ -84,7 +86,7 @@ for row in rows:
 ## Step 6: Data Processing and Storage
 Once you've extracted the data, you can further process it based on your requirements. You may clean, transform, or store the data in a desired format (e.g., CSV, JSON, or a database).
 
-# Conclusion:
+## Conclusion:
 Web scraping is a powerful technique to automate data extraction from websites. In this tutorial, we covered the basics of web scraping using Python and BeautifulSoup. Remember to respect website policies, use scraping responsibly, and ensure that you are not violating any terms of service or legal restrictions when scraping websites. Happy scraping!
 
 
