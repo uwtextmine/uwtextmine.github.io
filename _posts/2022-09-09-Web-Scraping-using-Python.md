@@ -18,6 +18,7 @@ To get started, we need to set up our development environment. Follow these step
 
 ```
 pip install beautifulsoup4
+
 ``` 
 
 ## Step 2: Importing the Required Libraries
@@ -25,17 +26,23 @@ pip install beautifulsoup4
 Open your Python IDE or text editor and create a new Python file. Start by importing the necessary libraries:
 
 
-```import requests
+```
+import requests
 from bs4 import BeautifulSoup
+
 ```
 
 ## Step 3: Fetching the Web Page
 Next, we need to fetch the HTML content of the web page we want to scrape. We'll use the requests library to make an HTTP request and retrieve the page content.
 
 ```
-url = "https://example.com"  # Replace with the URL of the web page you want to scrape
+url = "https://example.com"  
+# Replace with the URL of the web page you want to scrape
+
 response = requests.get(url)
+
 html_content = response.content
+
 ```
 
 ## Step 4: Parsing the HTML
@@ -43,6 +50,7 @@ Now, let's parse the HTML content using BeautifulSoup. It helps us navigate and 
 
 ```
 soup = BeautifulSoup(html_content, "html.parser")
+
 ```
 
 ## Step 5: Extracting Data
@@ -51,25 +59,30 @@ With BeautifulSoup, we can extract specific data from the HTML structure using d
 ### Example 1: Extracting Text from HTML Tags
 To extract the text within a specific HTML tag, we can use the find method:
 
-```title = soup.find("h1").text
+```
+title = soup.find("h1").text
 print("Title:", title)
+
 ```
 
 ### Example 2: Extracting Links
 To extract all the links on a web page, we can use the find_all method and iterate through the results:
 
 
-```links = soup.find_all("a")
+```
+links = soup.find_all("a")
 for link in links:
     href = link.get("href")
     print("Link:", href)
+ 
  ```
  
 ### Example 3: Extracting Table Data
 To extract data from HTML tables, we can identify the table structure and use the appropriate methods. Let's assume we want to scrape a table with three columns: "Name," "Age," and "City."
 
 
-```table = soup.find("table")
+```
+table = soup.find("table")
 rows = table.find_all("tr")
 
 for row in rows:
@@ -81,6 +94,7 @@ for row in rows:
         print("Name:", name)
         print("Age:", age)
         print("City:", city)
+ 
  ```
  
 ## Step 6: Data Processing and Storage
