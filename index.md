@@ -1,11 +1,2 @@
-Are you looking for patterns in large sets of text or researching ways to make sense of textual data using sentiment analysis, topic modeling, or more? Whether you’re new to text mining or stuck with text mining questions, we’re here to help!
+Welcome to the UW Text Mining Blog, a dynamic collaboration between the University of Washington Libraries and the eScience Institute! Join us on an exhilarating journey to unlock the power of text mining, as we delve into its boundless potential to revolutionize research, drive data-driven decisions, and unveil hidden knowledge. Get ready to explore tutorials, case studies, and cutting-edge advancements that will inspire and empower you to harness the transformative impact of text mining. Let's embark on this thrilling adventure together and uncover the treasures within the world of text!
 
-
-### What support is available for Text Mining?
-We can help you with:
-
-- Starting text mining projects
-- Web Scraping, Information Retrieval, Text Collection Methods (API)
-- Machine Learning for classification & Clustering
-- Natural Language Processing
-- Python, R, SQL
