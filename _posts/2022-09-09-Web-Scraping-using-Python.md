@@ -1,4 +1,4 @@
-# Web Scraping using Python 
+# Tutorial: Web Scraping using Python
 
 ## Introduction:
 Web scraping is the process of extracting data from websites. It allows you to automate the retrieval of information from web pages, which can be incredibly useful for various purposes like data analysis, research, and building applications. In this tutorial, we will explore web scraping using Python, along with the BeautifulSoup library.
