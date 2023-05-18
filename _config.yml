@@ -1,13 +1,13 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "UW TEXT MINING"
+author: "University of Washington Text Mining"
+description: "Are you looking for patterns in large sets of text or researching ways to make sense of textual data using sentiment analysis, topic modeling, or more? Whether you’re new to text mining or stuck with text mining questions, we’re here to help!" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
+email: "uwtextmine@uw.edu"
+#twitter_username: "twitteruser"
+github_username: "uwtextmine"
+#linkedin_username: "linkedinuser"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
