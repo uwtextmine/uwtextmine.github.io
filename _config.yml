@@ -18,8 +18,8 @@ github_username: "uwtextmine"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-#theme: "minima"
-theme: "hacker"
+theme: "minima"
+#theme: "hacker"
 #rss: rss
 
 kramdown:
